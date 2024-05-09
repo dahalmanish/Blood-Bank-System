@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 20px;
+}
+#one{
+    
+    list-style-type: none;
+    display: flex;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.bg-txt{
+    width: 100vw;
+    height: 30vh;
+    background-color: red;
+    text-align: center;
+}
+
+.bg-txt h1{
+    color: white;
+    padding: 50px;
+}
+
+.donateblood {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.donateblood h2 {
+    margin-bottom: 20px;
+}
+.donateblood input[type="text"],
+.donateblood input[type="number"],
+.donateblood input[type="datetime-local"],
+.donateblood select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.donateblood input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.donateblood input[type="submit"]:hover {
+    background-color: blue;
+}
